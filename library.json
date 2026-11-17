@@ -1,6 +1,6 @@
 {
   "name": "MadILI9341",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Buffered RGB565 ILI9341 SPI adapter for MadDisplay with differential transfers.",
   "frameworks": "arduino",
   "platforms": "*",

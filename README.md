@@ -4,8 +4,8 @@ Buffered SPI adapter for ILI9341, using Adafruit ILI9341. MadDisplay owns UI,
 navigation and motion; this package owns hardware initialization and transfers.
 
 ```cpp
-#include <MadDisplay/MadDisplay.hpp>
-#include <MadILI9341/MadILI9341.hpp>
+#include <MadDisplay.h>
+#include <MadILI9341.h>
 
 mad::ILI9341 adapter(csPin, dcPin, resetPin); // reset is optional
 mad::Display<mad::ILI9341> display(adapter);
@@ -58,7 +58,7 @@ PlatformIO (`platformio.ini`):
 
 ```ini
 lib_deps =
-  https://github.com/Astonikum/ili9341-lib.git#v0.2.0
+  https://github.com/Astonikum/ili9341-lib.git#v0.2.1
 ```
 
 PlatformIO resolves the core, adapter support and vendor dependencies automatically.
